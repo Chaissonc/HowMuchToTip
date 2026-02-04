@@ -8,25 +8,75 @@
 </head>
 
 <body>
+<p>How Much To Tip?</p>
+<div class="div1">
 
-    <div class="padding1">
-        <div class="billPadding">
-            <p>Bill<input class="bill" id="bill" placeholder="$"></p>
+        <div class="billSectionDiv">
+
+            <div class="billTextDiv">
+                <p class="billText">Bill</p></div>
+                    <div class="billInputDiv"> <input class="billInput" id="bill"></p>
+
+                    </div>
+            </div>
         </div>
 
-        <p>Percentage <input id="percent" placeholder="%"></p>
 
 
-        <button class="percentageButtons" id="percentage10Button">10%</button>
-        <button class="percentageButtons" id="percentage15Button">15%</button>
-        <button class="percentageButtons" id="percentage20Button">20%</button>
-        <button class="percentageButtons" id="percentage25Button">25%</button>
-    
+    <div class="percentSectionDiv">
+        <div class="percentButtonsHolderDiv">
 
-        <button id="submitButton">submit</button>
+            <div class="percentButtonDiv">
+                 <button class="percentageButtons" id="percentage10Button">10%</button>
+            </div>
+            <div class="percentButtonDiv">
+                <button class="percentageButtons" id="percentage15Button">15%</button>
+            </div>
+            <div class="percentButtonDiv">
+                <button class="percentageButtons" id="percentage20Button">20%</button>
+            </div>
+            <div class="percentButtonDiv">
+                <button class="percentageButtons" id="percentage25Button">25%</button>
+            </div>
+        </div>
+    </div>
+        <div class="customPercentDiv">
+            <input class="customPercent" id="percent" placeholder="Custom"></p>
+        </div>
+    </div>
 
 
-        <p id="result">Your tip is:</p>
+
+
+    <div class="tipAndTotalHolderDiv">
+
+        <div class="tipContainer">
+
+            <div class="tipTextDiv">
+                <p class=tipText>Tip</p>
+            </div>
+            <div class="tipResultBlock">   
+                <p class="tipTotalText" id="tipTotal"></p> 
+            </div>
+        </div>
+
+        <div class="resultContainer">
+
+            <div class="totalResultDiv">
+                <p class="totalText" id= "resultTotal">Total</p>
+            </div>
+            <div class="totalResultBlock">
+                <p class="totalTotalText" id="totalTotal"></p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
 
 </div>
 

@@ -17,22 +17,181 @@ h1{
     width: 100px;
     font-size: 20px;
 }
-.padding1{
-    border: solid 1px red;
+.div1{
+    border: solid 1px rgba(255, 0, 0, 0);
     top: 100px;
 }
-.billPadding{
-    border: solid 1px blue;
+
+
+
+
+.billSectionDiv{
+    border: solid 1px rgba(162, 0, 255, 0);
     justify-content: center;
-    display:flex;
+    display:inline-flex;
+    width:100%;
+    margin-top: 50px;
 }
-.bill{
+.billTextDiv {
+    border: solid 1px rgba(0, 255, 60, 0);
+    justify-content: center;
+    display:inline-flex;
+    padding: 0px 10px 0px 10px;
+}
+.billText {
+    color: rgb(108, 108, 108);
+    font-size: 60px;
+    font-weight: 50;
+}
+.billInputDiv{
+    border: solid 1px rgba(85, 0, 255, 0);
+    justify-content: center;
+    display:inline-flex;
+}
+.billInput{
     width:900px;
     height: 100px;
-     border: none;
+    border: none;
     border-radius: 25px;
-    background-color: rgb(230, 230, 230);
-    align-content: center;
-    font-size: 100px;
+    color:rgb(47, 47, 47);
+    background-color: rgb(244, 244, 244);
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.percentSectionDiv{
+border: solid 1px rgba(85, 0, 255, 0);
+    justify-content: center;
+    display:block;
+    width:100%;
+    padding-bottom: 10px;
+
+}
+.percentButtonsHolderDiv {
+    border: solid 1px rgba(255, 0, 225, 0);
+    display: flex;
+    justify-content: center;
+}
+.percentButtonDiv{
+   border: solid 1px rgba(255, 123, 0, 0); 
+   padding: 10px;
+}
+.percentageButtons{
+    height:100px;
+    width: 230px;
+    border-radius: 25px;
+    background-color: rgb(244, 244, 244);
+}
+.customPercentDiv {
+    border: solid 1px rgba(0, 255, 26, 0);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.customPercent{
+    width: 230px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+    border:none;
+    height:50px;
+    width: 980px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.tipAndTotalHolderDiv{
+    border: solid 1px rgba(0, 115, 255, 0);
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
     
+}
+
+.tipText, .totalText {
+    color: rgb(108, 108, 108);
+    font-size: 50px;
+}
+
+.totalTotalText,.tipTotalText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(108, 108, 108);
+}
+
+.tipContainer{
+    border:1px solid rgba(223, 0, 253, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tipTextDiv{
+    border: solid 1px rgba(196, 142, 164, 0);
+    padding: 20px;
+    display: flex;
+
+}
+.tipResultBlock{
+    width:300px;
+    height:80px;
+    border-radius: 20px;
+    background-color: rgb(244, 244, 244);
+    align-content: center;
+    
+}
+
+
+
+
+.resultContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 166, 0, 0);
+
+}
+.totalResultDiv{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(255, 0, 0, 0);
+}
+.totalResultBlock{
+    border-radius: 20px;
+    background-color: rgb(244, 244, 244);
+    width:400px;
+    height:80px;
+    align-content: center;
+}
+
+
+.div1, 
+.billSectionDiv, 
+.billTextDiv, 
+.billInputDiv, 
+.percentSectionDiv, 
+.percentButtonsHolderDiv, 
+.percentButtonDiv, 
+.customPercentDiv, 
+.tipAndTotalHolderDiv, 
+.tipContainer, 
+.tipTextDiv, 
+.tipResultBlock, 
+.resultContainer, 
+.totalResultDiv, 
+.totalResultBlock {
+    outline: 2px solid rgba(255, 0, 0, 0);
 }
