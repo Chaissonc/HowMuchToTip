@@ -195,3 +195,98 @@ border: solid 1px rgba(85, 0, 255, 0);
 .totalResultBlock {
     outline: 2px solid rgba(255, 0, 0, 0);
 }
+
+/*Iphone Display*/
+@media (max-width: 600px) {
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.percentageButtons{
+    border-radius: 10%;
+    border: none;
+    width: 1px;
+    font-size: 15px;
+}
+.div1{
+    top: 100px;
+}
+
+.billSectionDiv{
+    justify-content: center;
+    display:inline-flex;
+    width:100%;
+    margin-top: 80px;
+}
+.billText {
+    font-size: 30px;
+    font-weight: 50;
+    margin-left: -35px;
+}
+
+.billInput{
+    width:320px;
+    height: 60px;
+    color:rgb(47, 47, 47);
+    font-size: 40px;
+    padding-left: 10px;
+    
+}
+
+.percentSectionDiv{
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+}
+.percentButtonsHolderDiv {
+    padding-top: 20px;
+
+}
+.percentButtonDiv{
+   padding: 10px;
+}
+.percentageButtons{
+    height:55px;
+    width: 85px;
+}
+.customPercentDiv {
+    padding: 10px;
+}
+.customPercent{
+    border-radius: 5px;
+    height:30px;
+    width: 400px;
+}
+
+
+.tipAndTotalHolderDiv{
+    display:inline-block;
+    margin-top: 50px;
+    margin-left: -20px;
+    
+}
+
+.tipText, .totalText {
+    font-size: 20px;
+}
+
+.totalTotalText,.tipTotalText{
+    font-size: 20px;
+}
+
+.tipResultBlock{
+    width:330px;
+    height:60px;
+    border-radius: 20px;
+    margin-right: -10px;
+}
+
+.totalResultDiv{
+    padding:20px;
+}
+.totalResultBlock{
+    border-radius: 20px;
+    width:330px;
+    height:60px;
+}
+}
