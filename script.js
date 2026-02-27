@@ -13,8 +13,8 @@ function update (){
     const percent = Number(document.getElementById('percent').value);
     const tip = (bill * percent) / 100;
     const total = (bill+tip);
-    tipTotal.innerText = "$" + tip;
-    totalTotal.innerHTML = "$" + total;
+    tipTotal.innerText = "$" + tip.toFixed(2);
+    totalTotal.innerHTML = "$" + total.toFixed(2);
     console.log(bill, percent, tip ); //for debug
 }
 
