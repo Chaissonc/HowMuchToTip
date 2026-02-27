@@ -1,4 +1,4 @@
-//declare variables
+// variables
 const submitButton = document.getElementById('submitButton');
 const tipTotal = document.getElementById('tipTotal');
 const totalTotal= document.getElementById('totalTotal');
@@ -6,6 +6,8 @@ const percentage10Button = document.getElementById('percentage10Button');
 const percentage15Button = document.getElementById('percentage15Button');
 const percentage20Button = document.getElementById('percentage20Button');
 const percentage25Button = document.getElementById('percentage25Button');
+const percentInput = document.getElementById('percent');
+const billInput = document.getElementById('bill');
 
 //functions
 function update (){
@@ -15,8 +17,18 @@ function update (){
     const total = (bill+tip);
     tipTotal.innerText = "$" + tip.toFixed(2);
     totalTotal.innerHTML = "$" + total.toFixed(2);
-    console.log(bill, percent, tip ); //for debug
+    console.log(bill, percent, tip ); 
 }
+
+//for input fields
+percent.addEventListener('input', function(){ 
+    console.log("Custom Percentage HIT")
+    update()
+})
+billInput.addEventListener('input', function(){ 
+    console.log("Bill HIT")
+    update()
+})
 
 //buttons
 percentage10Button.addEventListener('click', function(){
@@ -46,4 +58,3 @@ const percentChosen = document.getElementById('percent')
 percentChosen.value = 25;
    update()
 })
-

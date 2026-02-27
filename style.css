@@ -26,9 +26,6 @@ h1{
     top: 100px;
 }
 
-
-
-
 .billSectionDiv{
     border: solid 1px rgba(162, 0, 255, 0);
     justify-content: center;
@@ -106,14 +103,6 @@ border: solid 1px rgba(85, 0, 255, 0);
 }
 
 
-
-
-
-
-
-
-
-
 .tipAndTotalHolderDiv{
     border: solid 1px rgba(0, 115, 255, 0);
     justify-content: center;
@@ -157,9 +146,6 @@ border: solid 1px rgba(85, 0, 255, 0);
     
 }
 
-
-
-
 .resultContainer{
     display: flex;
     align-items: center;
@@ -183,29 +169,14 @@ border: solid 1px rgba(85, 0, 255, 0);
 }
 
 
-.div1, 
-.billSectionDiv, 
-.billTextDiv, 
-.billInputDiv, 
-.percentSectionDiv, 
-.percentButtonsHolderDiv, 
-.percentButtonDiv, 
-.customPercentDiv, 
-.tipAndTotalHolderDiv, 
-.tipContainer, 
-.tipTextDiv, 
-.tipResultBlock, 
-.resultContainer, 
-.totalResultDiv, 
-.totalResultBlock {
-    outline: 2px solid rgba(255, 0, 0, 0);
-}
-
 /*Iphone Display*/
 @media (max-width: 600px) {
 
 body{
     background-color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 10px
 }
 .percentageButtons{
     border-radius: 10%;
@@ -268,7 +239,7 @@ body{
     display:inline-block;
     margin-top: 50px;
     margin-left: -20px;
-    
+     justify-content: center;
 }
 
 .tipText, .totalText {
